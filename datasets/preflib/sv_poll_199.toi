@@ -1,0 +1,40 @@
+# FILE NAME: sv_poll_199.toi
+# TITLE: 
+# DESCRIPTION: 
+# DATA TYPE: toi
+# MODIFICATION TYPE: 
+# RELATES TO: 
+# RELATED FILES: 
+# PUBLICATION DATE: 
+# MODIFICATION DATE: 
+# NUMBER ALTERNATIVES: 12
+# NUMBER VOTERS: 16
+# NUMBER UNIQUE ORDERS: 16
+# ALTERNATIVE NAME 0: 0
+# ALTERNATIVE NAME 1: 1
+# ALTERNATIVE NAME 2: 2
+# ALTERNATIVE NAME 3: 3
+# ALTERNATIVE NAME 4: 4
+# ALTERNATIVE NAME 5: 5
+# ALTERNATIVE NAME 6: 6
+# ALTERNATIVE NAME 7: 7
+# ALTERNATIVE NAME 8: 8
+# ALTERNATIVE NAME 9: 9
+# ALTERNATIVE NAME 10: 10
+# ALTERNATIVE NAME 11: 11
+1: 9, 0, 10, 4, 8, 2, 5, 11, 6, 3, 7, 1
+1: 6, 1, 7, 3, 8, 9, 5, 2, 10, 4, 0, 11
+1: 10, 9, 0, 2, 7, 3, 5, 6, 11, 4, 1, 8
+1: 1, 7, 3, 5, 10, 4, 0, 11, 6, 9, 8, 2
+1: 7, 8, 6, 5, 0, 10, 1, 3, 9, 11, 4, 2
+1: 2, 6, 10, 9, 8, 0, 11, 3, 7, 5, 4, 1
+1: 8, 1, 2, 11, 6, 7, 3, 10, 9, 4, 5, 0
+1: 0, 7, 10, 9, 5, 2, 4, 11, 3, 6, 1, 8
+1: 2, 8, 1, 0, 7, 9, 4, 6, 11, 3, 5, 10
+1: 9, 5, 8, 2, 10, 1, 0, 11, 4, 3, 6, 7
+1: 1, 6, 3, 7, 5, 4, 0, 9, 11, 8, 2, 10
+1: 1, 10, 5, 2, 8, 3, 9, 7, 4, 0, 6, 11
+1: 1, 8, 6, 7, 5, 0, 3, 2, 9, 4, 11, 10
+1: 1, 10, 8, 2, 0, 9, 11, 6, {7, 3, 5, 4}
+1: 2, 6, 11, 10, 0, 4, 9, 8
+1: 8
