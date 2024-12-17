@@ -1,4 +1,4 @@
-# Polling Data Repository
+# Stable Voting Datasets Repository
 
 ## Overview
 
@@ -6,20 +6,22 @@ This repository contains anonymized polling data collected from the [stabelvotin
 
 ## Versions
 
-Release date of the current version of the repository: 12-16-2024
+Release date: **12-17-2024**
 
-There are 658 polls in the repository...OTHER STATISTICS?
+* Dataset Overview: The dataset contains a total of **657 profiles**.
+* Candidate Statistics:
+    * Number of candidates per profile ranges from 2 to 43,
+    * Average number of candidates per profile: 4.59.
+* Voter Statistics:
+    * Number of voters per profile ranges from 2 to 512,
+    * Average number of voters per profile: 9.39.
+* Types of Profiles:
+    * Linear Orders (All candidates are ranked): 366 profiles (56.0%) where each voter submitted a complete, linear order of all the candidates.
+    * Truncated Linear Orders (Not all candidates are ranked): 85 profiles (13.0%) where each voter submitted a linear order over a subset of the candidates.
+    * Rankings with Ties (All candidates are ranked): 146 profiles (22.0%) where each voter submitted a ranking with ties over all the candidates.
+    * Rankings with Ties (Not all candidates are ranked): 60 profiles (9.0%) where each voter submitted a ranking with ties over a subset of the candidates.
 
-## Data Formats
 
-We provide the polling data in the following formats:
-
-- **Preflib**: A standard format for preference data used in computational social choice.  See [https://preflib.simonrey.fr/format#types](https://preflib.simonrey.fr/format#types) for a description of the format.
-- **CSV**: A standard format to store tabular data in plain text....EXPLAIN FORMAT
-- **JSON**: A lightweight, text-based format commonly used in web applications and data interchange...EXPLAIN FORMAT
-- **ABIF**: This format is described at [https://electowiki.org/wiki/ABIF](https://electowiki.org/wiki/ABIF).
-
-Each of these data formats is can be processed by pref_voting as a ProfileWithTies.  GIVE EXAMPLE CODE
 
 
 ## Usage Instructions
@@ -30,6 +32,21 @@ To access the datasets, clone this repository or download it as a ZIP file. Each
 git clone https://github.com/voting-tools/svdb_datasets.git
 ```
 
+Use the following code to read the data into a ProfileWithTies object from pref_voting: 
+
+```python
+
+from pref_voting.profiles_with_ties import ProfileWithTies
+
+prof = ProfileWithTies.read('datasets/preflib/sv_poll_0.toc')
+
+prof = ProfileWithTies.read('datasets/csv/sv_poll_0.csv', file_format='csv')
+
+prof = ProfileWithTies.read('datasets/json/sv_poll_0.json', file_format='json')
+
+prof = ProfileWithTies.read('datasets/abif/sv_poll_0.abif', file_format='abif')
+
+```
 ## Licensing and Privacy
 
 All datasets in this repository are released under the MIT license. This license allows for reuse and modification under the terms specified in the license file.
