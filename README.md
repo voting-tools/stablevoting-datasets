@@ -1,8 +1,8 @@
-# Stable Voting Datasets Repository
+# Stable Voting Datasets 
 
 ## Overview
 
-This repository contains anonymized polling data collected from the [stabelvoting.org](https://stabelvoting.org).  The datasets are intended for use by researchers, educators, and practitioners interested in analyzing and understanding patterns of voter preferences and the properties of different voting methods.
+This repository contains anonymized polling data collected from  [stabelvoting.org](https://stabelvoting.org).  The datasets are intended for use by researchers, educators, and practitioners interested in analyzing and understanding patterns of voter preferences and the properties of different voting methods.
 
 ## Versions
 
@@ -104,7 +104,7 @@ This dataset has been published on Zenodo and can be cited using its Digital Obj
 
 To cite this dataset, use the following format:
 
-Wesley H. Holliday and Eric Pacuit. (2024). Stable Voting Datasets, Release 12-17-2024, doi: [DOI Placeholder].
+Wesley H. Holliday and Eric Pacuit. (2024). Stable Voting Datasets, Release: 12-17-2024, doi: [DOI Placeholder].
 
 ## Contact
 
