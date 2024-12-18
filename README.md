@@ -10,19 +10,20 @@ Release date: **12-17-2024**
 
 * Dataset Overview: The dataset contains a total of **657 profiles**.
 * Candidate Statistics:
-    * Number of candidates per profile ranges from 2 to 43,
+    * Number of candidates per profile ranges from 2 to 43.
     * Average number of candidates per profile: 4.59.
+    * Median number of candidates per profile: 3.0.
+    * Modal number of candidates per profile: 2.
 * Voter Statistics:
-    * Number of voters per profile ranges from 2 to 512,
+    * Number of voters per profile ranges from 2 to 512.
     * Average number of voters per profile: 9.39.
+    * Median number of voters per profile: 6.0.
+
 * Types of Profiles:
-    * Linear Orders (All candidates are ranked): 366 profiles (56.0%) where each voter submitted a complete, linear order of all the candidates.
-    * Truncated Linear Orders (Not all candidates are ranked): 85 profiles (13.0%) where each voter submitted a linear order over a subset of the candidates.
-    * Rankings with Ties (All candidates are ranked): 146 profiles (22.0%) where each voter submitted a ranking with ties over all the candidates.
-    * Rankings with Ties (Not all candidates are ranked): 60 profiles (9.0%) where each voter submitted a ranking with ties over a subset of the candidates.
-
-
-
+    * Linear Orders: 366 profiles (56.0%) where each voter submitted a linear order of all the candidates.
+    * Truncated Linear Orders: 85 profiles (13.0%) where each voter submitted a linear order over a subset of the candidates, and at least one voter did not rank all the candidates.
+    * Rankings with Ties: 146 profiles (22.0%) where each voter submitted a ranking (allowing ties) over all the candidates, and at least one voter submitted a ranking with a tie.
+    * Truncated Rankings with Ties: 60 profiles (9.0%) where each voter submitted a ranking (allowing ties) over a subset of the candidates, at least one voter submitted a ranking with a tie, and at least one voter did not rank all the candidates.
 
 ## Usage Instructions
 
